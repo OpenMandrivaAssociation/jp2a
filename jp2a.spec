@@ -6,6 +6,11 @@ Url:		https://sourceforge.net/projects/jp2a
 Source0:	http://sourceforge.net/projects/jp2a/files/jp2a/%{version}/%{name}-%{version}.tar.bz2
 Summary:	Converts JPG images to ASCII
 Group:		Graphics
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	jpeg-devel
 BuildRequires:	pkgconfig(libcurl)
 BuildRequires:	pkgconfig(ncursesw)
